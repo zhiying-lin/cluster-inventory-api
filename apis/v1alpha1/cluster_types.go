@@ -157,8 +157,8 @@ type Property struct {
 const (
 	// ClusterConditionJoined means the cluster has successfully joined the control.
 	ClusterConditionJoined string = "Joined"
-	// Available means the cluster is available.
-	ClusterConditionAvailable string = "Available"
+	// Healthey means the cluster is healthy.
+	ClusterConditionHealthy string = "Healthy"
 )
 
 // +genclient
